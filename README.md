@@ -5,7 +5,7 @@
 *All authors are within the Department of Information Engineering, University of Padova, Italy.*
 
 
-If you find this code or work useful, please cite the following [paper](http://arxiv.org/abs/2301.10100):
+If you find this code or work useful, please cite the following [paper](https://ras.papercept.net/conferences/conferences/IROS24/program/IROS24_ContentListWeb_3.html#wepi3t5_03):
 ```
 @inproceedings{fusaro2024iros,
   title={Exploiting Local Features and Range Images for Small Data Real-Time Point Cloud Semantic Segmentation},
@@ -65,7 +65,7 @@ python launch_train.py \
 --restart \
 --eval
 ```
-This should give you a final mIoU of 69.0%.
+This should give you a validation mIoU of 69.0 %.
 
 **Remark:** *On SemanticKITTI, the code above will extract object instances on the train set (despite this being not necessary for validation) because this augmentation is activated for training on this dataset (and this code re-use the training script). This can be bypassed by editing the `yaml` config file and changing the entry `instance_cutmix` to `False`. The instances are saved automatically in `/tmp/semantic_kitti_instances/`.*
 

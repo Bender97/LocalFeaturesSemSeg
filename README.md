@@ -1,14 +1,9 @@
-# WaffleIron
-
-![](./imgs/illustration.png)
-![](./imgs/fusaro2024iros_top.svg)
-![](./imgs/fusaro2024iros_bottom.svg)
-
 [**Exploiting Local Features and Range Images for Small Data Real-Time Point Cloud Semantic Segmentation**](https://ras.papercept.net/conferences/conferences/IROS24/program/IROS24_ContentListWeb_3.html#wepi3t5_03)  
 [Daniel Fusaro](https://www.dei.unipd.it/en/persona/85ed20c7cab60b5a1ee989237cc70ec2),
 [Simone Mosco](https://www.dei.unipd.it/persona/ec7b2218b236d88ae0be5ca08e73ab80),
 [Alberto Pretto](https://www.dei.unipd.it/en/persona/C36EC9D29C2C5DFB03BFE9E045B32FD9)  
 *All authors are within the Department of Information Engineering, University of Padova, Italy.*
+
 
 If you find this code or work useful, please cite the following [paper](http://arxiv.org/abs/2301.10100):
 ```
@@ -21,6 +16,13 @@ If you find this code or work useful, please cite the following [paper](http://a
 
 // our paper has been accepted for publication at IROS 2024
 ```
+
+
+
+![](./imgs/illustration.png)
+![](./imgs/fusaro2024iros_top.svg)
+![](./imgs/fusaro2024iros_bottom.svg)
+
 
 ## Installation
 
